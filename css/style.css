@@ -580,7 +580,8 @@ button {
     text-align: center;
   }
  
-  header nav ul li a:hover {
+  header nav ul li a:hover,
+  header nav ul li a:focus {
     color: var(--main-color);
     border-top: transparent;
     border-bottom: var(--main-color) solid 3px;
