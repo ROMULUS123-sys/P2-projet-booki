@@ -344,22 +344,22 @@ button {
 /******* Activite *******/
  
 .activities {
-  padding-top: 30px;
+  padding-top: 70px;
   display: flex;
   flex-direction: column;
 }
  
 .activities h2 {
-  margin: 0px 0px 33px 20px;
+  margin: 0px 0px 33px 30px;
 }
  
 /******* Div englobant les cards *******/
  
 .activities .populaires-cards {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   gap: 30px;
-  padding: 0px 10px;
+  padding: 0px 30px;
 }
  
 /******* Le lien transmet sa hauteur a la carte *******/
@@ -390,7 +390,7 @@ button {
 .activities .card-content {
   flex: 1;
   width: 100%;
-  padding: 0px 15px;
+  padding: 0px 20px;
   justify-content: center;
 }
  
@@ -676,7 +676,15 @@ button {
   .accommodations-and-popular section {
     border-radius: 0px;
   }
+
+  .populaires-cards .card{
+    margin-top: 0;
+  }
  
+  .section-title {
+    font-size: 22px;
+  }
+  
   /******* Populaires *******/
  
   .popular {
@@ -685,6 +693,8 @@ button {
  
   .popular .populaires-cards {
     flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
   }
  
   .popular .populaires-cards img {
@@ -700,6 +710,9 @@ button {
   .accommodations .populaires-cards {
     display: flex;
     flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+
   }
  
   .accommodations .populaires-cards img {
