@@ -581,7 +581,7 @@ button {
   }
  
   header nav ul li a:hover,
-  header nav ul li a:focus {
+  header nav ul li a:focus{
     color: var(--main-color);
     border-top: transparent;
     border-bottom: var(--main-color) solid 3px;
@@ -591,6 +591,7 @@ button {
   header nav ul li a {
     display: block;
     padding: 15px 0;
+    border-bottom: var(--main-bg-color) solid 3px;
   }
  
   /******* Section Trouvez votre hebergement *******/
