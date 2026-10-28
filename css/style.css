@@ -198,9 +198,25 @@ button {
 }
  
 /******* Icon information *******/
- 
-.fa-circle-info {
-  margin-right: 10px;
+ .info{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+ }
+
+.fa-info {
+  width: 24px;
+  height: 24px;
+  font-size: 12px;
+  display: flex;
+  flex-shrink: 0;
+  border: 1px solid #d9d9d9;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
  
 /****** Hebergements And Populaires ***********/
